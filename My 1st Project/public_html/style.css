@@ -1,0 +1,103 @@
+/*
+External CSS file
+*/
+
+body{
+    font-family: roboto;
+    font-size: 18px;
+    margin: 20px;
+}
+div{
+    padding: 5px;
+    margin: 20px;
+}
+.bete{
+    display: inline-block;
+   
+}
+
+#image{
+    float: left;
+    padding: 0px 20px 20px 20px;
+}
+#identity{
+    overflow:auto;
+}
+#background{
+    background-image: url("img/bat_cover.jpg");
+    height: 350px;
+    padding: 50px;
+    color: white;
+    max-width: 900px;
+}
+#content{
+    background-color: rgba(0,0,0,0.5);
+    max-width: 450px;
+}
+.thumbnail { 
+    display:inline-block; 
+    height: auto;
+    } 
+  
+ table{
+        border: 1px solid;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th,td{
+        border: 1px solid;
+        height: 30px;
+        
+    }
+    th{
+        text-align: left;
+    }
+    li a{
+        color:black;
+        text-decoration: none;
+        float: right;
+        padding: 14px 16px;
+    }
+    .logo{
+       float: left;
+        height:50px;
+        padding-top: 18px;
+    }
+    
+    #header{
+        padding-bottom: 42px;
+        border-bottom: 1px solid black;
+    }
+    @media (min-width:320px){
+        .container{
+            width:320px;
+            } }
+     @media (min-width:481px){
+        .container{
+            width:481px;
+            } }
+      @media (min-width:641px){
+        .container{
+            width:641px;
+            } }
+       @media (min-width:961px){
+        .container{
+            width:961px;
+            } }
+        @media (min-width:1000px){
+        .container{
+            width:1000px;
+            } }
+        @media (max-width:480px){
+            .box{
+                width:100%;
+            } 
+            #image{
+                width:100%;
+            }
+            h2{
+                text-align: center;
+            }
+            .thumbnail{
+                width:100%;
+            }}
